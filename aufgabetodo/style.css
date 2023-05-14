@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(194, 18, 121);
+    width: 100%;
+    height: 10rem;
+    position: absolute fixed;
+    z-index: 1;
+}
+.sec0{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    background-color: white;
+    border: 1px solid gray;
+    height: 150px;
+    width: 40rem;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 50px;
+     margin-bottom: 1rem; 
+    margin-left: 170px; 
+    margin: 0 auto
+}
+.sec0 .text{
+    margin-left: 10px;
+    /* margin-top: 55px;
+    margin-right: 35px;
+    margin-bottom: 25px; */
+    width: 70%;
+    height: 2rem;
+    /* padding: 20px; */
+}
+
+.sec0 button {
+    margin-top: 55px;
+    margin-left: 30px;
+    margin-right: 5px;
+    width: 90px;
+    height: 35px;
+    background-color: rgb(194, 18, 121);
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 40%;
+    margin-left: 400px;
+    margin-top: 25px; 
+    /* margin: 0 auto */
+}
+
+.sec .did{
+    display: flex;
+    /* flex-direction: column; */
+    border: 1px solid gray;
+    height: 45px;
+    
+
+}
+ .checkbox{
+    margin-left: 5px;
+
+}
+.sec .sec1{
+    display: flex;
+    /* flex-direction: column; */
+    border: 1px solid gray;
+    align-items: center;
+   width: 100%;
+   height: 45px;
+   justify-content: center;
+
+} 
+.sec1 .input{
+    margin-top: 15px;
+    margin-left: 2rem;
+    font-size: 25px;
+    /* text-align: center; */
+}
+.sec1 #input1{
+    flex: 1;
+    /* /* padding-top: 5px; */
+    margin-right: 10px;
+    margin-left: 20px;
+    /* margin-bottom: 30px;
+    width: 60%;
+    height: 25px; */ 
+}
+.sec1 button {
+    /* margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-bottom: 2rem;
+    width: 70px;
+    height: 25px; */
+    border-radius: 5px;
+    background-color:white;
+    color: palevioletred;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+ .did .fas{
+    color:palevioletred ;
+    /* width: 50px; */
+}
